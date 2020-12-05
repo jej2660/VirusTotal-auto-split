@@ -27,7 +27,6 @@ def GetReport(reso):
         response = requests.get(url_r, params=rpar)
         if response.status_code == 200:
             return response.json()
-            break
         else:
             time.sleep(5)
     
