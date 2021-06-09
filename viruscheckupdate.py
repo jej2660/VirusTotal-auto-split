@@ -1,8 +1,4 @@
-import requests
-import sys
-import json
-import os
-import time
+import requests, sys, json, os, time
 
 url_r = 'https://www.virustotal.com/vtapi/v2/file/report'
 url_s = 'http://www.virustotal.com/vtapi/v2/file/scan'
